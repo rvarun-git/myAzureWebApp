@@ -1,7 +1,7 @@
 var restify = require('restify');
 
 var server = restify.createServer();
-server.get("/", function(req, res) {
+server.get("/api/messages", function(req, res) {
     res.send("Wowie: Server started");
 });
 server.listen(process.env.PORT || 8080, function(){
