@@ -2,7 +2,7 @@
 
 // var server = restify.createServer();
 // server.get("/api/messages", function(req, res) {
-    res.send("Wowie: Server started");
+//    res.send("Wowie: Server started");
 // });
 // server.listen(process.env.PORT || 8080, function(){
 //     console.log("%s listening on %s", server.name, server.url); 
