@@ -1,14 +1,14 @@
 // CANNOT get Restify code to work :(
     
-// var restify = require('restify');
+var restify = require('restify');
 
-// var server = restify.createServer();
-// server.get("/api/messages", function(req, res) {
-//    res.send("Wowie: Server started");
-// });
-// server.listen(process.env.PORT, function(){
-//     console.log("%s listening on %s", server.name, server.url); 
-// });
+var server = restify.createServer();
+server.get("/", function(req, res) {
+   res.send("Wowie: Server started");
+});
+server.listen(process.env.PORT, function(){
+    console.log("%s listening on %s", server.name, server.url); 
+});
 
 
 var http = require('http');
