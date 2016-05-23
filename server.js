@@ -1,4 +1,4 @@
-// CANNOT get Restify code to work :(
+// Restify version - just does not work from Azure
     
 var restify = require('restify');
 
@@ -10,6 +10,7 @@ server.listen(80, function(){
     console.log("%s listening on %s", server.name, server.url); 
 });
 
+// HTTP - version
 
 // var http = require('http');
 // http.createServer(function (req, res) {
