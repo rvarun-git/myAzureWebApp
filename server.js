@@ -4,7 +4,7 @@ var restify = require('restify');
 
 var server = restify.createServer();
 server.get("/", function(req, res) {
-   res.send("Wowie: Server started");
+   res.send("Wowie: Azure Server started");
 });
 server.listen(process.env.PORT || 80, function(){
     console.log("%s listening on %s", server.name, server.url); 
