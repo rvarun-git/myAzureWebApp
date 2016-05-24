@@ -1,7 +1,7 @@
 {
   "name": "rvaazurebotapp",
   "version": "1.0.0",
-  "description": "Azure Web server trials",
+  "description": "Trying stuff on Azure",
   "main": "server.js",
   "scripts": {
     "test": "node server.js",
@@ -13,7 +13,7 @@
   },
   "keywords": [
     "restify",
-    "http"
+    "azure"
   ],
   "author": "RVA",
   "license": "ISC",
@@ -22,7 +22,6 @@
   },
   "homepage": "https://github.com/rvarun-git/myAzureWebApp#readme",
   "dependencies": {
-    "http": "0.0.0",
-    "restify": "^4.0.4"
+    "azure": "^0.10.6"
   }
 }

@@ -6,7 +6,7 @@ var server = restify.createServer();
 server.get("/", function(req, res) {
    res.send("Wowie: Server started");
 });
-server.listen(80, function(){
+server.listen(process.env.PORT !! 80, function(){
     console.log("%s listening on %s", server.name, server.url); 
 });
 
